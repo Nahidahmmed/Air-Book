@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useRef } from "react";
 import { useState } from "react";
+import logo from '../../assets/LOGO.png';
 
 export default function Navbar() {
   const [dropDownState, setDropDownState] = useState(false);
@@ -25,9 +26,7 @@ export default function Navbar() {
         <div className="bg-white px-4 py-2 bg-opacity-90 ">
           <div className="max-w-screen-xl mx-auto flex items-center xl:justify-start lg:justify-start md:justify-start justify-between">
           <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2  transition-all duration-200 hover:scale-110">
-            <h2 className="text-4xl font-bold text-yellow-400">
-              Air<span className="text-blue-500 font-medium">Book</span>
-            </h2>
+            <img src={logo} alt="" />
           </div>
           <ul className="hidden text-lg font-medium items-center justify-between gap-10 md:flex mx-auto">
             <li className="group flex  cursor-pointer flex-col">
