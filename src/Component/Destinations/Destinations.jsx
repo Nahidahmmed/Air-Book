@@ -7,7 +7,7 @@ function Destinations() {
       <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3  gap-20 my-10">
           {
             destinations.map((destination,indx) =>(
-              <div key={indx} className="w-[350px] bg-white px-4 py-4 mx-auto rounded-2xl space-y-6 shadow-lg shad">
+              <div key={indx} className="w-[350px] bg-white px-4 py-4 mx-auto rounded-2xl space-y-6 shadow-2xl shad">
             {/* Card Image */}
                 <img className="w-[400px] bg-gray-400 rounded-2xl" src={destination.imgae} alt="card navigate ui" />
                 {/* Card Heading */}
