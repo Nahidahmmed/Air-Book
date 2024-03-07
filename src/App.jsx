@@ -1,4 +1,5 @@
 import "./App.css";
+import Airlines from "./Component/Airlines/Airlines";
 import Banner from "./Component/Banner/Banner";
 import Destinations from "./Component/Destinations/Destinations";
 import Footer from "./Component/Footer/Footer";
@@ -14,6 +15,7 @@ function App() {
       <div className="max-w-screen-xl mx-auto">
         <Destinations />
         <Offers/>
+        <Airlines/>
       </div>
       <Footer></Footer>
     </div>
