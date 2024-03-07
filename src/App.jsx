@@ -6,6 +6,7 @@ import Destinations from "./Component/Destinations/Destinations";
 import Footer from "./Component/Footer/Footer";
 import Navbar from "./Component/Navbar/Navbar";
 import Offers from "./Component/Offers/Offers";
+import Subscribe from "./Component/Subscribe/Subscribe";
 // import Testimonials from "./Component/Testimonials/Testimonials";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Offers/>
         <Airlines/>
         <Blog/>
+        <Subscribe/>
       </div>
         {/* <Testimonials/> */}
       <Footer></Footer>
