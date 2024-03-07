@@ -1,10 +1,12 @@
 import "./App.css";
 import Airlines from "./Component/Airlines/Airlines";
 import Banner from "./Component/Banner/Banner";
+import Blog from "./Component/Blog/Blog";
 import Destinations from "./Component/Destinations/Destinations";
 import Footer from "./Component/Footer/Footer";
 import Navbar from "./Component/Navbar/Navbar";
 import Offers from "./Component/Offers/Offers";
+// import Testimonials from "./Component/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         <Destinations />
         <Offers/>
         <Airlines/>
+        <Blog/>
       </div>
+        {/* <Testimonials/> */}
       <Footer></Footer>
     </div>
   );

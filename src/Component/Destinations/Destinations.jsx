@@ -4,7 +4,7 @@ function Destinations() {
   return (
     <div>
       <h1 className="text-3xl font-bold my-10">Featured Destinations</h1>
-      <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3  gap-20 my-10">
+      <div className="grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2  gap-20 my-10">
           {
             destinations.map((destination,indx) =>(
               <div key={indx} className="w-[350px] bg-white px-4 py-4 mx-auto rounded-2xl space-y-6 shadow-2xl shad">
